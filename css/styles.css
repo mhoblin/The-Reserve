@@ -3,6 +3,7 @@ body {
 	margin-top: 20%;
 	background: url("../img/bw.jpeg") center top no-repeat;
 	background-size: cover;
+	margin-left: 20%;
 }
 
 h1 {
@@ -16,3 +17,48 @@ div#info {
 	margin-left: .5em;
 }
 
+/*==========
+Media query
+==========*/
+
+ /*  Large Desktop  */
+
+ @media screen and (max-width: 1300px) {
+  body {
+
+    }
+
+
+  }
+
+
+ /*  Desktop  */
+
+ @media screen and (max-width: 1000px) {
+  body {
+    }
+
+
+  }
+
+  /*  Tablet styling */
+
+ @media screen and (max-width: 768px) {
+
+
+    
+
+
+}
+
+
+
+   /*  Mobile styling  */
+
+ @media screen and (max-width: 480px) {
+
+body {
+	margin-left: 10%;
+}
+
+ }
