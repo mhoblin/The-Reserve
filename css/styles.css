@@ -1,7 +1,7 @@
 body {
 	color: #FFF;
 	margin-top: 20%;
-	background: url("../img/bw.jpg") center top no-repeat;
+	background: url("../img/bw.jpg") center top no-repeat #474747;
 	background-size: cover;
 	margin-left: 30%;
 }
