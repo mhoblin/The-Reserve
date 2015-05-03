@@ -1,7 +1,13 @@
 // On page load, do this
 $(document).ready(function(){
   
-  // Your Scripts
+  //lightbox for newsletter form
+	$('#newsletter').click(function() {
+		$('.basic.modal').modal('show');
+	});
 
+	$('#submit').click(function() {
+		$('.basic.modal').modal('hide');
+	});
 
 });

@@ -1,9 +1,17 @@
+html {
+	width: 100%;
+	height: 100%;
+}
 body {
 	color: #FFF;
-	margin-top: 20%;
+	margin-top: 15%;
 	background: url("../img/bwbg.jpg") center top no-repeat #222222;
 	background-size: cover;
 	margin-left: 30%;
+	width: 100%;
+	height: 100%;
+	 padding-right: 50%;
+
 }
 
 h1 {
@@ -15,16 +23,32 @@ h1 {
 
 h3 {
 	font-size: 2em;
-	color: cyan;
+	color: #00CCCC;
 }
 
 div#info {
 	margin-left: .5em;
+	padding-right: 30%;
 }
 
 p {
+	margin-top: -1em;
 
+}
 
+.ui.form .field>label {
+	color: #656565;
+}
+
+div#submit.ui.submit.button,
+a.ui.button {
+	background-color: #00CCCC;
+	color: white;
+}
+
+a#newsletter.fluid.inverted.basic.ui.button {
+	margin-top: 5em;
+	max-width: 418.609;
 }
 
 /*==========
@@ -47,6 +71,7 @@ Media query
  @media screen and (max-width: 1000px) {
   body {
   	margin-left: 20%;
+  	padding-right: 0%;
     }
 
 
@@ -69,7 +94,8 @@ Media query
  @media screen and (max-width: 480px) {
 
 body {
-	margin-left: 10%;
+	margin-left: 15%;
+
 }
 
  }
