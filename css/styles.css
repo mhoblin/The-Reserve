@@ -14,6 +14,8 @@ body {
 
 }
 
+
+
 h1 {
 	font-size: 5em;
 	line-height: 80%;
@@ -36,15 +38,13 @@ p {
 
 }
 
-.ui.form .field>label {
-	color: #656565;
+#mc_embed_signup{
+	background:#fff;
+	clear:left; 
+	font:14px Helvetica,Arial,sans-serif; 
+	color: black;
 }
 
-div#submit.ui.submit.button,
-a.ui.button {
-	background-color: #00CCCC;
-	color: white;
-}
 
 a#newsletter.fluid.inverted.basic.ui.button {
 	margin-top: 5em;
